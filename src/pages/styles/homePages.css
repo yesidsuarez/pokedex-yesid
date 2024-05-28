@@ -1,0 +1,54 @@
+@import url(https://db.onlinewebfonts.com/c/831e1f4da157d96bc996f8c9f5f1e578?family=Pokemon+GB);
+
+.home {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    background-image: url(../../../public/assets/homepage2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.home__logo {
+    padding-top: 10px;
+}
+.home__decoration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #dfdfdfc2;
+    padding: 20px 0;
+    border-radius: 2%; 
+}
+.home__container {
+    display: flex;
+    width: 90%;
+    height: 150px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Pokemon GB';
+}
+.home__title {
+    color: #D93F3F;
+}
+.home__input {
+    width: 250px;
+    height: 30px;
+    border-radius: 15px 0px 0 15px;
+}
+
+
+.home__btn {
+    background-color: #D93F3F;
+    font-family: 'Pokemon GB';
+    width: 85px;
+    height: 30px;
+    border-radius: 0px 15px 15px 0px;
+
+}
